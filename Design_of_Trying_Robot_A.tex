@@ -1,0 +1,83 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Start Of the Designing of Trying Robot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Design of Trying Robot}
+    \subsection{Overall Dimensions and Weight}
+        \begin{table}[h]
+            \caption{Dimensions and Weight of TR} \label{Dimensiona_TR} \small
+            \begin{tabular}{|c|l|c|l|c|}
+                \hline
+                \textbf{Sr No}  & \textbf{Dimension} & \textbf{Value}  & \textbf{Dimension}      & \textbf{Value}   \\ \hline
+                \textbf{1}      & Length             & \textbf{855} mm & Game length             & \textbf{1148} mm \\ \hline
+                \textbf{2}      & Width              & \textbf{940} mm & Game Width              & \textbf{1045} mm \\ \hline
+                \textbf{3}      & Height             & \textbf{848} mm & Game Height             & \textbf{848} mm  \\ \hline
+                \textbf{4}      & \multicolumn{3}{c|}{Weight}                                    & \textbf{} Kg     \\ \hline
+            \end{tabular}
+        \end{table}
+
+    \subsection{Type Of Drive}
+        The base frame has been framed with \textbf{Aluminium 6061} hollow square pipes of cross-section \textbf{19 mm x 19 mm x 1.5 mm} thick. 
+        \textit{Aluminium ensures an efficient light-weight frame with uniform weight distribution}. Since Aluminium has low density ($2.7 g/cm^3$) compared 
+        to other common metals available, it made the robot lightweight while ensuring swift translation and sturdiness of thebase. Being Holonomic 
+        in nature it enables fast locomotion as well quick response to the change in direction of travel. The three wheeled robot reduces the 
+        overall weight of the robot and provides better load distribution over all the wheels.
+
+    \subsection{Actuators and Sensors Integrated}
+        \begin{itemize}
+            \item Sensors
+            \begin{table}[h]
+                \caption {Sensors Integrated on TR} \label{Sensors_TR}  \small
+                \begin{tabular}{|c|l|l|c|l|}
+                    \hline  \hline
+                    \textbf{Sr No}  & \textbf{Sensor}                   & \textbf{Specification}    & \textbf{Quantity} & \textbf{Usage}                                       \\ \hline \hline
+                    \textbf{1}      & \textbf{Potentiometer}            & 10k linear taper 16 mm    &        2          & The number of pulses obtained for calculation of     \\
+                                    &                                   & rotary potentiometer      &                   & corresponding PWM, this is done by using the         \\ 
+                                    &                                   &                           &                   & map function.                                        \\ \hline
+                    \textbf{2}      & \textbf{Intertial Measurement}    & 3 - Axis Gyroscope        &        1          & To Control Angular Position of  Robot                \\ 
+                                    & \textbf{Unit (IMU) MPU6050}       & 3 - Axis Accelerometer    &                   &                                                      \\ \hline
+                    \textbf{3}      & \textbf{Rotary Encoder}           & 600 Pulses Per Rotation   &        2          & To measure distance covered robot along the x        \\ 
+                                    &                                   &                           &                   & direction and Y direction.                           \\ \hline \hline
+                \end{tabular}
+            \end{table}
+
+            \item Actuators
+            \begin{table}[h]
+                \caption {Actuators Used on TR} \label{Actuators_TR}  \small
+                \begin{tabular}{|c|l|l|c|l|}
+                    \hline  \hline
+                    \textbf{Sr No}  & \textbf{Actuators}        & \textbf{Specifications}               & \textbf{Quantity}  & \textbf{Usage}                                               \\ \hline   \hline
+                    \textbf{1}      & \textbf{Planetary Geared} & \textbf{12 V DC},  \textbf{60 RPM},   & 2                  & Placing Flap Actuation                                       \\
+                                    & \textbf{PMDC Motor}       & Stall Torque: $\textbf{86 kg-cm}$     &                    &                                                              \\ \hline   \hline  
+                \end{tabular}
+            \end{table}
+        \end{itemize}
+
+
+    \subsection{Ball Recieving Mechanism}
+        The try ball receiving mechanism resembles a basket-like structure having trapezoid-shaped opening to receive the try ball. The 
+        receiving mechanism is covered with nylon fibre net to absorb the momentum ofthe try ball. The structure is made using aluminium 6061 
+        hollow square pipe since it provides quick manoeuvrability along with proper strength.
+    
+    \subsection{Try Mechainsm}
+        The try mechanism is mounted just beneath the ball receiving mechanism. The try mechanism consists of a ramp, which is placed at an 
+        inclination of 25 0 to the ground and a flap which holds the ball inside of the try receiving mechanism. Once the try ball is received 
+        in the mechanism with the help of the net, the ball will fall on the ramp and slide down through it till it is obstructed by the flap. 
+        The rotation of the flap will stop at a point where the distance between the ramp and flap will be just enough to allow the ball to fall 
+        in the try spot. At this point, there will be \textbf{contact between the flap and ball and the ball and ground as well}. While making a try, the 
+        placing flap is actuated using Johnson geared motor. As the \textbf{ball must touch the robot and ground simultaneously}, the placing flap’s angular 
+        movement must be controlled. A \textbf{10k Ohm potentiometer} coupled to the motor’s shaft is used as feedback to control the movement of placing 
+        flap accurately.
+        • Control Strategy:\\
+            Before receiving the ball from PR, the bot must orient itself to face the direction of the pass. \textbf{MPU6050} is
+            used as feedback for calculating robots’ angular position and orient itself towards a pre-defined direction.\\
+        •  Alternate Gripping and Placing using Gripper:\\
+            In case, \textbf{if the ball is not received in the basket} and falls in the receiving zone then the ball can be picked up using a pneumatic
+            gripper. The gripper will grip the ball along the major axis and lift the ball using a \textbf{12V DC Johnson motor} with a \textbf{10k potentiometer}
+            as \textbf{feedback}. Then the ball will be released by the gripper in the try spot.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Of the Designing of Trying Robot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
