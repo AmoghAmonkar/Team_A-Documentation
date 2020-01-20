@@ -29,14 +29,17 @@
                 \caption {Sensors Integrated on TR} \label{Sensors_TR}  \small
                 \begin{tabular}{|c|l|l|c|l|}
                     \hline  \hline
-                    \textbf{Sr No}  & \textbf{Sensor}                   & \textbf{Specification}    & \textbf{Quantity} & \textbf{Usage}                                       \\ \hline \hline
-                    \textbf{1}      & \textbf{Potentiometer}            & 10k linear taper 16 mm    &        2          & The number of pulses obtained for calculation of     \\
-                                    &                                   & rotary potentiometer      &                   & corresponding PWM, this is done by using the         \\ 
-                                    &                                   &                           &                   & map function.                                        \\ \hline
-                    \textbf{2}      & \textbf{Intertial Measurement}    & 3 - Axis Gyroscope        &        1          & To Control Angular Position of  Robot                \\ 
-                                    & \textbf{Unit (IMU) MPU6050}       & 3 - Axis Accelerometer    &                   &                                                      \\ \hline
-                    \textbf{3}      & \textbf{Rotary Encoder}           & 600 Pulses Per Rotation   &        2          & To measure distance covered robot along the x        \\ 
-                                    &                                   &                           &                   & direction and Y direction.                           \\ \hline \hline
+                    \textbf{Sr No}  & \textbf{Sensor}                   & \textbf{Specification}                & \textbf{Quantity} & \textbf{Usage}                                      \\ \hline   \hline                    
+                    \textbf{1}      & \textbf{Incremental Optical}      & 600 Pulses Per Rotation               &        2          & To Control Position of the leg.                     \\
+                                    & \textbf{Rotary Encoder}           &                                       &                   &                                                     \\ \hline         
+                    \textbf{2}      & \textbf{Intertial Measurement}    & 3 - Axis Gyroscope                    &        1          & To Control Angular Position of  Robot.              \\ 
+                                    & \textbf{Unit (IMU) MPU6050}       & 3 - Axis Accelerometer                &                   &                                                     \\ \hline 
+                    \textbf{3}      & \textbf{Potentiometer}            & 10k linear taper 16 mm                &        2          & To control ball placing Flap Actuation.             \\
+                                    &                                   & rotary potentiometer                  &                   &                                                     \\ \hline
+                    \textbf{4}      & \textbf{Digital Proximity}        & \textbf{0 - 80cm} non contact type    &        2          & For detecting the kicking ball                      \\
+                                    & \textbf{Sensor}                   & detection, \textbf{ 5V}               &                   &                                                     \\ \hline                                    
+                    \textbf{5}      & \textbf{Ultrasonic Sensor}        & \textbf{2 - 400cm} distance           &        1          & Distance calculation between ball rack and          \\ 
+                                    & \textbf{(HC-SR04)}                & module, \textbf{0.3 cm} resolution    &                   & robot.                                              \\ \hline   \hline
                 \end{tabular}
             \end{table}
 
@@ -46,8 +49,10 @@
                 \begin{tabular}{|c|l|l|c|l|}
                     \hline  \hline
                     \textbf{Sr No}  & \textbf{Actuators}        & \textbf{Specifications}               & \textbf{Quantity}  & \textbf{Usage}                                               \\ \hline   \hline
-                    \textbf{1}      & \textbf{Planetary Geared} & \textbf{12 V DC},  \textbf{60 RPM},   & 2                  & Placing Flap Actuation                                       \\
-                                    & \textbf{PMDC Motor}       & Stall Torque: $\textbf{86 kg-cm}$     &                    &                                                              \\ \hline   \hline  
+                    \textbf{1}      & \textbf{Johnson Geared}   & \textbf{12 V DC},  \textbf{60 RPM},   & 1                  & For rotating gripper arms.                                   \\
+                                    & \textbf{Motor}            & Rated Torque: $\textbf{20 kg-cm}$     &                    &                                                              \\ \hline 
+                    \textbf{2}      & \textbf{Planetary Geared} & \textbf{12 V DC},  \textbf{850 RPM},  & 1                  & For rotating gripper arms.                                   \\
+                                    & \textbf{PMDC Motor}       & Stall Torque: $\textbf{45 kg-cm}$     &                    &                                                              \\ \hline   \hline  
                 \end{tabular}
             \end{table}
         \end{itemize}
@@ -60,16 +65,13 @@
     
     \subsection{Try Mechainsm}
         The try mechanism is mounted just beneath the ball receiving mechanism. The try mechanism consists of a ramp, which is placed at an 
-        inclination of 25 0 to the ground and a flap which holds the ball inside of the try receiving mechanism. Once the try ball is received 
+        inclination of $25\degree$ to the ground and a flap which holds the ball inside of the try receiving mechanism. Once the try ball is received 
         in the mechanism with the help of the net, the ball will fall on the ramp and slide down through it till it is obstructed by the flap. 
         The rotation of the flap will stop at a point where the distance between the ramp and flap will be just enough to allow the ball to fall 
         in the try spot. At this point, there will be \textbf{contact between the flap and ball and the ball and ground as well}. While making a try, the 
         placing flap is actuated using Johnson geared motor. As the \textbf{ball must touch the robot and ground simultaneously}, the placing flap’s angular 
         movement must be controlled. A \textbf{10k Ohm potentiometer} coupled to the motor’s shaft is used as feedback to control the movement of placing 
-        flap accurately.
-        • Control Strategy:\\
-            Before receiving the ball from PR, the bot must orient itself to face the direction of the pass. \textbf{MPU6050} is
-            used as feedback for calculating robots’ angular position and orient itself towards a pre-defined direction.\\
+        flap accurately.\\
         •  Alternate Gripping and Placing using Gripper:\\
             In case, \textbf{if the ball is not received in the basket} and falls in the receiving zone then the ball can be picked up using a pneumatic
             gripper. The gripper will grip the ball along the major axis and lift the ball using a \textbf{12V DC Johnson motor} with a \textbf{10k potentiometer}

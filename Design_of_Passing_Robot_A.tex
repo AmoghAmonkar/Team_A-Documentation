@@ -27,13 +27,15 @@
             \item Sensors
                 \begin{table}[h]
                     \caption {Sensors Integrated on PR} \label{Sensors_PR}  \small
-                    \begin{tabular}{|c|l|c|l|l|}
+                    \begin{tabular}{|c|l|l|c|l|}
                         \hline  \hline
-                        \textbf{Sr No}  & \textbf{Sensor}           & \textbf{Data Given}       & \textbf{Quantity} & \textbf{Information Deduced}                                          \\ \hline   \hline
-                        \textbf{1}      & \textbf{Rotary Encoder}   & 600 Pulses Per Rotation   &        2          & The number of pulses obtained for calculation of                      \\
-                                        &                           &                           &                   & corresponding PWM, this is done by using the map                      \\ 
-                                        &                           &                           &                   & function.                                                             \\ \hline
-                        \textbf{2}      & \textbf{MPU6050}          & Angular Velocity          &        1          & Angle of orientation of the robot                                     \\ \hline   \hline
+                        \textbf{Sr No}  & \textbf{Sensor}                   & \textbf{Specification}                & \textbf{Quantity} & \textbf{Usage}                                      \\ \hline   \hline
+                        \textbf{1}      & \textbf{Incremental Optical}      & 600 Pulses Per Rotation               &        2          & To Control Position of the leg.                     \\
+                                        & \textbf{Rotary Encoder}           &                                       &                   &                                                     \\ \hline         
+                        \textbf{2}      & \textbf{Intertial Measurement}    & 3 - Axis Gyroscope                    &        1          & To Control Angular Position of  Robot.              \\ 
+                                        & \textbf{Unit (IMU) MPU6050}       & 3 - Axis Accelerometer                &                   &                                                     \\ \hline                                     
+                        \textbf{3}      & \textbf{Ultrasonic Sensor}        & \textbf{2 - 400cm} distance           &        1          & Distance calculation between ball rack and          \\ 
+                                        & \textbf{(HC-SR04)}                & module, \textbf{0.3 cm} resolution    &                   & robot.                                              \\ \hline   \hline
                     \end{tabular}
                 \end{table}
                 
@@ -43,54 +45,30 @@
                 \begin{tabular}{|c|l|l|c|l|}
                     \hline  \hline
                     \textbf{Sr No}  & \textbf{Actuators}        & \textbf{Specifications}               & \textbf{Quantity}  & \textbf{Usage}                                               \\ \hline   \hline
-                    \textbf{1}      & \textbf{Pneumatic Air}    & \textbf{12 mm} bore diameter,         & 1                  & For rotating the claw for a firm grip on the ball            \\
+                    \textbf{1}      & \textbf{Pneumatic Air}    & \textbf{8 mm} bore diameter,          & 1                  & For gripping the try ball                                    \\
                                     & \textbf{Cylinder}         & \textbf{25 mm} stroke length.         &                    &                                                              \\ \hline
-                    \textbf{2}      & \textbf{Pneumatic Air}    & \textbf{12 mm} bore diameter,         & 1                  & For linear displacement of the jig to slide the ball         \\
+                    \textbf{2}      & \textbf{Pneumatic Air}    & \textbf{25 mm} bore diameter,         & 1                  & For linear displacement of the jig to slide the ball         \\
                                     & \textbf{Cylinder}         & \textbf{300 mm} stroke length.        &                    & in the rotors                                                \\ \hline                                  
                     \textbf{3}      & \textbf{PMDC Motor}       & \textbf{12 V DC},  \textbf{3000 RPM}, & 2                  & For rotating disc wheels                                     \\
                                     &                           & Torque: $\textbf{4 kg-cm}$            &                    &                                                              \\ \hline 
                     \textbf{4}      & \textbf{Planetary Geared} & \textbf{12 V DC},  \textbf{400 RPM},  & 2                  & For rotating gripper arms                                    \\
-                                    & \textbf{PMDC Motor}       & Rated Torque: $\textbf{4 kg-cm}$      &                    &                                                              \\ \hline   \hline  
+                                    & \textbf{PMDC Motor}       & Rated Torque: $\textbf{4 kg-cm}$      &                    &                                                              \\ \hline   \hline   
                 \end{tabular}
             \end{table}
         \end{itemize}
 
 
     \subsection{Ball Picking and Passing Mechanism}
-        \subsubsection{Ball Picking Mechainsm}
-            The two \textbf{gripping arms made} from aluminium hollow square pipes are \textbf{coupled mechanically}. Aluminium material is used due to its 
-            optimum strength to weight ratio. The part of the \textbf{concave curvature} is fixed at the end of one of the arms of gripper which holds 
-            try ball firmly. To the same arm, a pneumatic piston is attached such that \textbf{extracting force} of it is used for gripping try ball. 
-            Pneumatic air cylinder provides the appropriate amount of normal force such that the \textbf{frictional force} overcomes the \textbf{weight} of try 
-            ball to grip it properly. The try ball gripped by the gripper is placed on the guideway with the help of two arms actuated using 
-            \textbf{planetary geared PMDC motor} which aligns the ball with the help of \textbf{3D printed custom tool and rollers}. The guideway is set at an 
-            angle of 45 0 to the ground. A pneumatic air cylinder of \textbf{300 mm} stroke length and \textbf{slider} are also mounted below the guideway. A slider 
-            is connected to the piston rod. The guideway provides a \textbf{specific alignment} to the try ball such that the \textbf{major axis} of the ball is at 
-            the desired angle to the rotating axis of the wheels which is required to pass the try ball to the TR.
+        \subsubsection{Calculations}
 
-        \subsubsection{Passing Mechanism}
-            Two wheels are connected to the \textbf{12V DC motor} with the help of \textbf{female couplings}. Initially, 12V DC motors are rotated at optimal rpm, 
-            then the pneumatic piston mounted on the structure of the guideway is actuated so that the try ball will be pushed in the space between 
-            the two rotating wheels which will provide required \textbf{trajectory} to try ball for passing it to TR.\\
-            • Torque Calculations required for motor selection:\\
-            According to the dimensions of the parts involved in the gripping mechanism which are to be rotated by the DC geared motor and considering 
-            their material and appropriate weight, it is calculated that their centre of mass occurs at a distance of \textbf{160 mm} from the centre of the shaft 
-            of the motor. And the weight is \textbf{1007 grams}. With the safety factor of 1.5 and rounding up the values,\\
-            $Torque = Weight \times Perpendicular distance = 1.505 \times 16 = \textbf{24.08 kg-cm}$\\
-            So, considering this the motor used is of $\textbf{25 kg-cm}$ torque and $\textbf{400 rpm}$.
 
         \subsubsection{Working}
-
-        \subsubsection{Control Stratergy}
-            \begin{itemize}
-                \item The encoders are coupled to the shaft of the motors. As soon as the motors are actuated, the encoders
-                return the corresponding pulses to the microcontroller, which calculates the corresponding RPM of the
-                motor.
-                \item PID control strategy is implemented to maintain the desired RPM value.
-                \item This process is repeated in a loop to get the stable system, and as soon as the required RPM for the
-                motors is acquired, the piston is actuated to position the ball between the space, and a try is carried
-                out.      
-            \end{itemize}  
+            \textbf{A. Maintaining the desired distance from the ball rack with proper orientation:}                                   \\
+            \textbf{MPU6050} is used for the orientation of pass Robot and for locomotion, Rotary encoder and MPU6050 feedback is used. \textbf{Ultrasonic sensor} 
+            feedback is used for the detection of ball and distance calculation between ball rack and robot.                                                                                                                     \\
+            \textbf{B. Gripping and Throwing a ball:}                                                                                  \\
+            The gripping piston mechanism is used for gripping of the ball. The catapult piston mechanism is actuated for the
+            throwing of the ball towards Try Robot. Range of Catapult mechanism is \textbf{7 m} to \textbf{7.5 m} height is \textbf{90 cm.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Of the Designing of Passing Robot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
