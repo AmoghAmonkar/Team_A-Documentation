@@ -1,0 +1,23 @@
+\BOOKMARK [1][]{section.1}{Design of Passing Robot}{}% 1
+\BOOKMARK [2][]{subsection.1.1}{Overall Dimensions and Weight}{section.1}% 2
+\BOOKMARK [2][]{subsection.1.2}{Type Of Drive}{section.1}% 3
+\BOOKMARK [2][]{subsection.1.3}{Actuators and Sensors Integrated}{section.1}% 4
+\BOOKMARK [2][]{subsection.1.4}{Ball Picking and Passing Mechanism}{section.1}% 5
+\BOOKMARK [3][]{subsubsection.1.4.1}{Calculations}{subsection.1.4}% 6
+\BOOKMARK [3][]{subsubsection.1.4.2}{Working}{subsection.1.4}% 7
+\BOOKMARK [1][]{section.2}{Design of Trying Robot}{}% 8
+\BOOKMARK [2][]{subsection.2.1}{Overall Dimensions and Weight}{section.2}% 9
+\BOOKMARK [2][]{subsection.2.2}{Type Of Drive}{section.2}% 10
+\BOOKMARK [2][]{subsection.2.3}{Actuators and Sensors Integrated}{section.2}% 11
+\BOOKMARK [2][]{subsection.2.4}{Ball Recieving Mechanism}{section.2}% 12
+\BOOKMARK [2][]{subsection.2.5}{Try Mechainsm}{section.2}% 13
+\BOOKMARK [1][]{section.3}{Kicking Mechanism}{}% 14
+\BOOKMARK [2][]{subsection.3.1}{Mechanism I}{section.3}% 15
+\BOOKMARK [3][]{subsubsection.3.1.1}{Components Used}{subsection.3.1}% 16
+\BOOKMARK [3][]{subsubsection.3.1.2}{Principle Involved in the mechanism}{subsection.3.1}% 17
+\BOOKMARK [3][]{subsubsection.3.1.3}{Design Calculations}{subsection.3.1}% 18
+\BOOKMARK [3][]{subsubsection.3.1.4}{Working}{subsection.3.1}% 19
+\BOOKMARK [2][]{subsection.3.2}{Mechanism II}{section.3}% 20
+\BOOKMARK [3][]{subsubsection.3.2.1}{Construction}{subsection.3.2}% 21
+\BOOKMARK [3][]{subsubsection.3.2.2}{Calculation}{subsection.3.2}% 22
+\BOOKMARK [3][]{subsubsection.3.2.3}{Working}{subsection.3.2}% 23
