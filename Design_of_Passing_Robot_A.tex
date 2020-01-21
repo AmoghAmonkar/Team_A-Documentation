@@ -30,8 +30,8 @@
                     \begin{tabular}{|c|l|l|c|l|}
                         \hline  \hline
                         \textbf{Sr No}  & \textbf{Sensor}                   & \textbf{Specification}                & \textbf{Quantity} & \textbf{Usage}                                      \\ \hline   \hline
-                        \textbf{1}      & \textbf{Incremental Optical}      & 600 Pulses Per Rotation               &        2          & To Control Position of the leg.                     \\
-                                        & \textbf{Rotary Encoder}           &                                       &                   &                                                     \\ \hline         
+                        \textbf{1}      & \textbf{Incremental Optical}      & \textbf{600} Pulses Per Rotation      &        2          & For calculating distance required for               \\
+                                        & \textbf{Rotary Encoder}           &                                       &                   & locomotion.                                         \\ \hline         
                         \textbf{2}      & \textbf{Intertial Measurement}    & 3 - Axis Gyroscope                    &        1          & To Control Angular Position of  Robot.              \\ 
                                         & \textbf{Unit (IMU) MPU6050}       & 3 - Axis Accelerometer                &                   &                                                     \\ \hline                                     
                         \textbf{3}      & \textbf{Ultrasonic Sensor}        & \textbf{2 - 400cm} distance           &        1          & Distance calculation between ball rack and          \\ 
@@ -45,13 +45,13 @@
                 \begin{tabular}{|c|l|l|c|l|}
                     \hline  \hline
                     \textbf{Sr No}  & \textbf{Actuators}        & \textbf{Specifications}               & \textbf{Quantity}  & \textbf{Usage}                                               \\ \hline   \hline
-                    \textbf{1}      & \textbf{Pneumatic Air}    & \textbf{8 mm} bore diameter,          & 1                  & For gripping the try ball.                                    \\
+                    \textbf{1}      & \textbf{Pneumatic}        & \textbf{8 mm} bore diameter,          & 1                  & For gripping the try ball.                                    \\
                                     & \textbf{Cylinder}         & \textbf{25 mm} stroke length.         &                    &                                                              \\ \hline
-                    \textbf{2}      & \textbf{Pneumatic Air}    & \textbf{25 mm} bore diameter,         & 1                  & For linear displacement of the jig to slide the ball         \\
-                                    & \textbf{Cylinder}         & \textbf{300 mm} stroke length.        &                    & in the rotors.                                                \\ \hline                                  
+                    \textbf{2}      & \textbf{Pneumatic}        & \textbf{25 mm} bore diameter,         & 1                  & For passing the try ball.                                    \\
+                                    & \textbf{Cylinder}         & \textbf{300 mm} stroke length.        &                    &                                                              \\ \hline                                  
                     \textbf{3}      & \textbf{PMDC Motor}       & \textbf{12 V DC},  \textbf{3000 RPM}, & 2                  & For rotating disc wheels.                                     \\
                                     &                           & Torque: $\textbf{4 kg-cm}$            &                    &                                                              \\ \hline 
-                    \textbf{4}      & \textbf{Planetary Geared} & \textbf{12 V DC},  \textbf{400 RPM},  & 2                  & For rotating gripper arms.                                    \\
+                    \textbf{4}      & \textbf{Planetary Geared} & \textbf{12 V DC},  \textbf{400 RPM},  & 1                  & For rotating gripper arms.                                    \\
                                     & \textbf{PMDC Motor}       & Rated Torque: $\textbf{4 kg-cm}$      &                    &                                                              \\ \hline   \hline   
                 \end{tabular}
             \end{table}
@@ -66,9 +66,6 @@
             \textbf{A. Maintaining the desired distance from the ball rack with proper orientation:}                                   \\
             \textbf{MPU6050} is used for the orientation of pass Robot and for locomotion, Rotary encoder and MPU6050 feedback is used. \textbf{Ultrasonic sensor} 
             feedback is used for the detection of ball and distance calculation between ball rack and robot.                                                                                                                     \\
-            \textbf{B. Gripping and Throwing a ball:}                                                                                  \\
-            The gripping piston mechanism is used for gripping of the ball. The catapult piston mechanism is actuated for the
-            throwing of the ball towards Try Robot. Range of Catapult mechanism is \textbf{7 m} to \textbf{7.5 m} height is \textbf{90 cm.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% End Of the Designing of Passing Robot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

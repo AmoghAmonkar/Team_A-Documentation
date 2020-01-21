@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.19)  21 JAN 2020 08:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.19)  21 JAN 2020 09:10
 entering extended mode
 **/home/amogh/Desktop/Team_A-Documentation/Team_A.tex
 (/home/amogh/Desktop/Team_A-Documentation/Team_A.tex
@@ -573,29 +573,38 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
  (/usr/local/share/miktex-texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/home/amogh/.miktex/texmfs/data/pdftex/config/pdftex.map}
+)
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+[1{/home/amogh/.miktex/texmfs/data/pdftex/config/pdftex.map}
 
 ]) (/home/amogh/Desktop/Team_A-Documentation/Design_of_Trying_Robot_A.tex
+Overfull \hbox (36.90404pt too wide) in paragraph at lines 31--45
+[][] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2]) (/home/amogh/Desktop/Team_A-Documentation/Kicking_Mechanism_A.tex
-Underfull \hbox (badness 10000) in paragraph at lines 33--50
+Underfull \hbox (badness 10000) in paragraph at lines 30--47
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 64--70
+Underfull \hbox (badness 10000) in paragraph at lines 62--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--87
+Underfull \hbox (badness 10000) in paragraph at lines 76--85
 
  []
 
@@ -611,17 +620,17 @@ Package rerunfilecheck Info: File `Team_A.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 9272 strings out of 492484
- 138764 string characters out of 3130045
+ 9281 strings out of 492484
+ 138864 string characters out of 3130045
  242096 words of memory out of 3000000
- 13385 multiletter control sequences out of 15000+200000
- 13636 words of font info for 50 fonts, out of 3000000 for 9000
+ 13390 multiletter control sequences out of 15000+200000
+ 14971 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,45p,325b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/amogh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/amogh/Desktop/Team_A-Documentation/Team_A.pdf (5 pages, 192783 bytes).
+ </home/amogh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk> </home/amogh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on /home/amogh/Desktop/Team_A-Documentation/Team_A.pdf (5 pages, 186412 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
+ 184 PDF objects out of 1000 (max. 8388607)
  36 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

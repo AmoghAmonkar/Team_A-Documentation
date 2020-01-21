@@ -16,10 +16,11 @@
         \end{table}
 
     \subsection{Type Of Drive}
-        The base frame has been framed with \textbf{Aluminium 6061} hollow square pipes of cross-section \textbf{19 mm x 19 mm x 1.5 mm} thick. 
+        The base frame has been manufactured with \textbf{Aluminium 6061} hollow square pipes of \textbf{19 mm x 19 mm x 1.5 mm} cross-sectional thickness. 
         \textit{Aluminium ensures an efficient light-weight frame with uniform weight distribution}. Since Aluminium has low density ($2.7 g/cm^3$) compared 
-        to other common metals available, it made the robot lightweight while ensuring swift translation and sturdiness of thebase. Being Holonomic 
-        in nature it enables fast locomotion as well quick response to the change in direction of travel. The three wheeled robot reduces the 
+        to other common metals available, it made the robot lightweight while ensuring swift translation and sturdiness of the base. For determination of orientaion 
+        of robot, we have used \textbf{MPU6050 Inertial Measurement Unit} whereas \textbf{distance feedback taken using rotary encoder}. Being Holonomic 
+        in nature it enables fast locomotion as well as quick response to the change in direction of travel. The three wheeled robot reduces the 
         overall weight of the robot and provides better load distribution over all the wheels.
 
     \subsection{Actuators and Sensors Integrated}
@@ -29,17 +30,17 @@
                 \caption {Sensors Integrated on TR} \label{Sensors_TR}  \small
                 \begin{tabular}{|c|l|l|c|l|}
                     \hline  \hline
-                    \textbf{Sr No}  & \textbf{Sensor}                   & \textbf{Specification}                & \textbf{Quantity} & \textbf{Usage}                                      \\ \hline   \hline                    
-                    \textbf{1}      & \textbf{Incremental Optical}      & 600 Pulses Per Rotation               &        2          & To Control Position of the leg.                     \\
-                                    & \textbf{Rotary Encoder}           &                                       &                   &                                                     \\ \hline         
-                    \textbf{2}      & \textbf{Intertial Measurement}    & 3 - Axis Gyroscope                    &        1          & To Control Angular Position of  Robot.              \\ 
-                                    & \textbf{Unit (IMU) MPU6050}       & 3 - Axis Accelerometer                &                   &                                                     \\ \hline 
-                    \textbf{3}      & \textbf{Potentiometer}            & 10k linear taper 16 mm                &        2          & To control ball placing Flap Actuation.             \\
-                                    &                                   & rotary potentiometer                  &                   &                                                     \\ \hline
-                    \textbf{4}      & \textbf{Digital Proximity}        & \textbf{0 - 80cm} non contact type    &        2          & For detecting the kicking ball                      \\
-                                    & \textbf{Sensor}                   & detection, \textbf{ 5V}               &                   &                                                     \\ \hline                                    
-                    \textbf{5}      & \textbf{Ultrasonic Sensor}        & \textbf{2 - 400cm} distance           &        1          & Distance calculation between ball rack and          \\ 
-                                    & \textbf{(HC-SR04)}                & module, \textbf{0.3 cm} resolution    &                   & robot.                                              \\ \hline   \hline
+                    \textbf{Sr No}  & \textbf{Sensor}                   & \textbf{Specification}                & \textbf{Quantity} & \textbf{Usage}                                            \\ \hline   \hline                    
+                    \textbf{1}      & \textbf{Incremental Optical}      & \textbf{600} Pulses Per Rotation      &        2          & To Control Position of the leg.                           \\
+                                    & \textbf{Rotary Encoder}           &                                       &                   &                                                           \\ \hline         
+                    \textbf{2}      & \textbf{Intertial Measurement}    & 3 - Axis Gyroscope                    &        3          & To Control Angular Position of  Robot and for distance.   \\ 
+                                    & \textbf{Unit (IMU) MPU6050}       & 3 - Axis Accelerometer                &                   & distance .                                                \\ \hline 
+                    \textbf{3}      & \textbf{Potentiometer}            & 10k linear taper 16 mm                &        2          & To control ball placing Flap Actuation.                   \\
+                                    &                                   & rotary potentiometer                  &                   &                                                           \\ \hline
+                    \textbf{4}      & \textbf{Digital Proximity}        & \textbf{0 - 80 cm} non contact type   &        1          & For detecting the kick ball.                              \\
+                                    & \textbf{Sensor}                   & detection, \textbf{ 5V}               &                   &                                                           \\ \hline                                    
+                    \textbf{5}      & \textbf{Ultrasonic Sensor}        & \textbf{2 - 400 cm} distance          &        1          & Distance calculation of ball rack base                    \\ 
+                                    & \textbf{(HC-SR04)}                & module, \textbf{0.3 cm} resolution    &                   & frame.                                                    \\ \hline   \hline
                 \end{tabular}
             \end{table}
 
@@ -49,9 +50,9 @@
                 \begin{tabular}{|c|l|l|c|l|}
                     \hline  \hline
                     \textbf{Sr No}  & \textbf{Actuators}        & \textbf{Specifications}               & \textbf{Quantity}  & \textbf{Usage}                                               \\ \hline   \hline
-                    \textbf{1}      & \textbf{Johnson Geared}   & \textbf{12 V DC},  \textbf{60 RPM},   & 1                  & For rotating gripper arms.                                   \\
+                    \textbf{1}      & \textbf{Johnson Geared}   & \textbf{12 V DC},  \textbf{60 RPM},   & 1                  & Used for actuating the placing flap.                         \\
                                     & \textbf{Motor}            & Rated Torque: $\textbf{20 kg-cm}$     &                    &                                                              \\ \hline 
-                    \textbf{2}      & \textbf{Planetary Geared} & \textbf{12 V DC},  \textbf{850 RPM},  & 1                  & For rotating gripper arms.                                   \\
+                    \textbf{2}      & \textbf{Planetary Geared} & \textbf{12 V DC},  \textbf{850 RPM},  & 2                  & Required for actuating the kicking mechanism.                \\
                                     & \textbf{PMDC Motor}       & Stall Torque: $\textbf{45 kg-cm}$     &                    &                                                              \\ \hline   \hline  
                 \end{tabular}
             \end{table}
@@ -59,13 +60,12 @@
 
 
     \subsection{Ball Recieving Mechanism}
-        The try ball receiving mechanism resembles a basket-like structure having trapezoid-shaped opening to receive the try ball. The 
-        receiving mechanism is covered with nylon fibre net to absorb the momentum ofthe try ball. The structure is made using aluminium 6061 
-        hollow square pipe since it provides quick manoeuvrability along with proper strength.
+        The try ball receiving mechanism resembles a basket-like structure having trapezoid-shaped opening to receive the try ball. The receiving mechanism is covered with nylon fibre net to absorb the momentum 
+        of the try ball. The structure is made using aluminium 6061 hollow square pipe since it provides optimum strength to the mechanism.
     
     \subsection{Try Mechainsm}
         The try mechanism is mounted just beneath the ball receiving mechanism. The try mechanism consists of a ramp, which is placed at an 
-        inclination of \textbf{$25 \degree$} to the ground and a flap which holds the ball inside of the try receiving mechanism. Once the try ball is received 
+        inclination of \textbf{$32\degree$} to the ground and a flap which holds the ball inside of the try ball receiving mechanism. Once the try ball is received 
         in the mechanism with the help of the net, the ball will fall on the ramp and slide down through it till it is obstructed by the flap. 
         The rotation of the flap will stop at a point where the distance between the ramp and flap will be just enough to allow the ball to fall 
         in the try spot. At this point, there will be \textbf{contact between the flap and ball and the ball and ground as well}. While making a try, the 
