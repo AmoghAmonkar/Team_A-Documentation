@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.19)  22 JAN 2020 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.19)  22 JAN 2020 20:48
 entering extended mode
 **/home/amogh/Desktop/Team_A-Documentation/Team_A.tex
 (/home/amogh/Desktop/Team_A-Documentation/Team_A.tex
@@ -588,7 +588,7 @@ File: PR_Team_A.PNG Graphic file (type png)
 Package pdftex.def Info: PR_Team_A.PNG  used on input line 39.
 (pdftex.def)             Requested size: 157.64015pt x 113.37444pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
@@ -711,40 +711,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--156
 <Motor_kicking_1.PNG, id=152, 442.65375pt x 388.45125pt>
 File: Motor_kicking_1.PNG Graphic file (type png)
 <use Motor_kicking_1.PNG>
-Package pdftex.def Info: Motor_kicking_1.PNG  used on input line 159.
+Package pdftex.def Info: Motor_kicking_1.PNG  used on input line 161.
 (pdftex.def)             Requested size: 110.66316pt x 97.11256pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 160.
+(caption)                particular \caption on input line 162.
 See the caption package documentation for explanation.
 
 <Motor_kicking_2.PNG, id=153, 609.77812pt x 370.38374pt>
 File: Motor_kicking_2.PNG Graphic file (type png)
 <use Motor_kicking_2.PNG>
-Package pdftex.def Info: Motor_kicking_2.PNG  used on input line 164.
+Package pdftex.def Info: Motor_kicking_2.PNG  used on input line 166.
 (pdftex.def)             Requested size: 152.44415pt x 92.5957pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 165.
+(caption)                particular \caption on input line 167.
 See the caption package documentation for explanation.
 
 <Motor_kicking_3.PNG, id=154, 657.2053pt x 351.56343pt>
 File: Motor_kicking_3.PNG Graphic file (type png)
 <use Motor_kicking_3.PNG>
-Package pdftex.def Info: Motor_kicking_3.PNG  used on input line 169.
+Package pdftex.def Info: Motor_kicking_3.PNG  used on input line 171.
 (pdftex.def)             Requested size: 164.30092pt x 87.89064pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 170.
+(caption)                particular \caption on input line 172.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (2.11856pt too wide) in paragraph at lines 169--170
+Overfull \hbox (2.11856pt too wide) in paragraph at lines 171--172
 [][] 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 157--176
+Overfull \hbox (15.0pt too wide) in paragraph at lines 159--178
 [][] 
  []
 
@@ -772,7 +772,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,14n,45p,325b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/amogh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk> </home/amogh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/amogh/Desktop/Team_A-Documentation/Team_A.pdf (5 pages, 1134406 bytes).
+Output written on /home/amogh/Desktop/Team_A-Documentation/Team_A.pdf (5 pages, 1134390 bytes).
 PDF statistics:
  218 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)
