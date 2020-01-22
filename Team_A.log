@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.19)  22 JAN 2020 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.19)  22 JAN 2020 20:54
 entering extended mode
 **/home/amogh/Desktop/Team_A-Documentation/Team_A.tex
 (/home/amogh/Desktop/Team_A-Documentation/Team_A.tex
@@ -601,10 +601,6 @@ File: TR_Team_A.PNG Graphic file (type png)
 Package pdftex.def Info: TR_Team_A.PNG  used on input line 36.
 (pdftex.def)             Requested size: 183.61238pt x 118.79472pt.
 
-Overfull \hbox (36.90404pt too wide) in paragraph at lines 77--91
-[][] 
- []
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -770,9 +766,9 @@ Here is how much of TeX's memory you used:
  13451 multiletter control sequences out of 15000+200000
  14971 words of font info for 54 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,14n,45p,325b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,14n,45p,321b,434s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/amogh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk> </home/amogh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/share/miktex-texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/amogh/Desktop/Team_A-Documentation/Team_A.pdf (5 pages, 1134390 bytes).
+Output written on /home/amogh/Desktop/Team_A-Documentation/Team_A.pdf (5 pages, 1134383 bytes).
 PDF statistics:
  218 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)
