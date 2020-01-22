@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1579706646 "/home/amogh/Desktop/Team_A-Documentation/Team_A.tex" "/home/amogh/Desktop/Team_A-Documentation/Team_A.pdf" "Team_A" 1579706647
+["pdflatex"] 1579706755 "/home/amogh/Desktop/Team_A-Documentation/Team_A.tex" "/home/amogh/Desktop/Team_A-Documentation/Team_A.pdf" "Team_A" 1579706756
   "/home/amogh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1000.pk" 1579574913 12124 c71f45d678ceea1b096dd9ed0761e0ba ""
   "/home/amogh/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1579442583 11548 10b10372145498a98c4636f6dfcd8fc0 ""
   "/home/amogh/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1579442040 3765259 e87c8db0f61980b60662b192d66ed517 ""
@@ -32,7 +32,7 @@
   "/home/amogh/.miktex/texmfs/install/tex/latex/setspace/setspace.sty" 1579442069 22913 a27d7908fc6f0385466454a966a316eb ""
   "/home/amogh/.miktex/texmfs/install/tex/latex/tabto-ltx/tabto.sty" 1579573557 7571 bbe73377bcd3b71daa9dc07c784655b3 ""
   "/home/amogh/.miktex/texmfs/install/tex/latex/was/gensymb.sty" 1081488500 4755 4a45a1ba5fd7b0c48ab0c1f124453b38 ""
-  "/home/amogh/Desktop/Team_A-Documentation/Team_A.aux" 1579706647 7699 0fed5f1dcc248db911e7000e22f27219 ""
+  "/home/amogh/Desktop/Team_A-Documentation/Team_A.aux" 1579706756 7699 0fed5f1dcc248db911e7000e22f27219 ""
   "/home/amogh/Desktop/Team_A-Documentation/Team_A.tex" 1579705520 7595 9b776c1bbd7a2f318c1a5b9429956f9b ""
   "/usr/local/share/miktex-texmf/fonts/tfm/jknappen/ec/tcbx0500.tfm" 1577811054 1464 df9adc02a3f6cd7520085fac5bb5e254 ""
   "/usr/local/share/miktex-texmf/fonts/tfm/jknappen/ec/tcbx0700.tfm" 1577811054 1468 e4add5c7fefa3368b6e39f7a0a29e8cc ""
@@ -121,7 +121,7 @@
   "/usr/local/share/miktex-texmf/tex/latex/url/url.sty" 1577811424 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "Design_of_Passing_Robot_A.tex" 1579706314 13905 dc24b65e7658fcc734a14262354aea20 ""
   "Design_of_Trying_Robot_A.tex" 1579706646 18079 f3ecbc137d9d9b0cfbc42e95a557edf3 ""
-  "Kicking_Mechanism_A.tex" 1579705729 18114 bc6b3c5be0636e5dc63f62e9fddf0630 ""
+  "Kicking_Mechanism_A.tex" 1579706755 18112 cab685c58680674d804a695404799f53 ""
   "Motor_kicking_1.PNG" 1579531116 113414 1b0703c342446ee5c45db6bba9cafed1 ""
   "Motor_kicking_2.PNG" 1579531064 152234 72a30d4f5396a54c8ad912bc16f82488 ""
   "Motor_kicking_3.PNG" 1579531218 142321 d36d3f6d304600648ed93a7817246cc2 ""
@@ -132,13 +132,13 @@
   "Receiving_1.PNG" 1579434104 123162 800f9605e51a5a2bb2ad155d7ffd2d4f ""
   "Receiving_2.PNG" 1579434178 114834 7390b21cdad5c4cd217363c5b2d5c650 ""
   "TR_Team_A.PNG" 1579522098 176934 9b6ab1ae38adb13bfd546f4cb6ccf798 ""
-  "Team_A.aux" 1579706647 7699 0fed5f1dcc248db911e7000e22f27219 "pdflatex"
-  "Team_A.out" 1579706647 1595 dbd5cfb73e31cf606d5ba2a01ce7666d "pdflatex"
+  "Team_A.aux" 1579706756 7699 0fed5f1dcc248db911e7000e22f27219 "pdflatex"
+  "Team_A.out" 1579706756 1595 dbd5cfb73e31cf606d5ba2a01ce7666d "pdflatex"
   "Team_A.tex" 1579705520 7595 9b776c1bbd7a2f318c1a5b9429956f9b ""
   (generated)
+  "Team_A.pdf"
+  "Team_A.log"
   "Team_A.aux"
   "Team_A.out"
-  "Team_A.log"
   "/home/amogh/Desktop/Team_A-Documentation/Team_A.pdf"
-  "Team_A.pdf"
   "/home/amogh/Desktop/Team_A-Documentation/Team_A.log"

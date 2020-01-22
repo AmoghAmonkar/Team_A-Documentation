@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.19)  22 JAN 2020 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250) (preloaded format=pdflatex 2020.1.19)  22 JAN 2020 20:55
 entering extended mode
 **/home/amogh/Desktop/Team_A-Documentation/Team_A.tex
 (/home/amogh/Desktop/Team_A-Documentation/Team_A.tex
@@ -648,7 +648,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 146--169
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--68
+Underfull \hbox (badness 10000) in paragraph at lines 49--66
 
  []
 
@@ -656,91 +656,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--68
 <Piston_kicking_1.PNG, id=137, 453.19313pt x 369.63094pt>
 File: Piston_kicking_1.PNG Graphic file (type png)
 <use Piston_kicking_1.PNG>
-Package pdftex.def Info: Piston_kicking_1.PNG  used on input line 87.
+Package pdftex.def Info: Piston_kicking_1.PNG  used on input line 85.
 (pdftex.def)             Requested size: 113.298pt x 92.4075pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 88.
+(caption)                particular \caption on input line 86.
 See the caption package documentation for explanation.
 
 <Piston_kicking_2.PNG, id=138, 456.20438pt x 378.66469pt>
 File: Piston_kicking_2.PNG Graphic file (type png)
 <use Piston_kicking_2.PNG>
-Package pdftex.def Info: Piston_kicking_2.PNG  used on input line 92.
+Package pdftex.def Info: Piston_kicking_2.PNG  used on input line 90.
 (pdftex.def)             Requested size: 114.05081pt x 94.66594pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 93.
+(caption)                particular \caption on input line 91.
 See the caption package documentation for explanation.
 
 <Piston_kicking_3.PNG, id=139, 524.71031pt x 359.84438pt>
 File: Piston_kicking_3.PNG Graphic file (type png)
 <use Piston_kicking_3.PNG>
-Package pdftex.def Info: Piston_kicking_3.PNG  used on input line 97.
+Package pdftex.def Info: Piston_kicking_3.PNG  used on input line 95.
 (pdftex.def)             Requested size: 131.17725pt x 89.96086pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 98.
+(caption)                particular \caption on input line 96.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 85--104
+Overfull \hbox (15.0pt too wide) in paragraph at lines 83--102
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
+Underfull \hbox (badness 10000) in paragraph at lines 123--129
 
  []
 
 [4 </home/amogh/Desktop/Team_A-Documentation/Piston_kicking_1.PNG> </home/amogh/Desktop/Team_A-Documentation/Piston_kicking_2.PNG> </home/amogh/Desktop/Team_A-Documentation/Piston_kicking_3.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--137
+Underfull \hbox (badness 10000) in paragraph at lines 132--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--156
+Underfull \hbox (badness 10000) in paragraph at lines 145--154
 
  []
 
 <Motor_kicking_1.PNG, id=152, 442.65375pt x 388.45125pt>
 File: Motor_kicking_1.PNG Graphic file (type png)
 <use Motor_kicking_1.PNG>
-Package pdftex.def Info: Motor_kicking_1.PNG  used on input line 161.
+Package pdftex.def Info: Motor_kicking_1.PNG  used on input line 159.
 (pdftex.def)             Requested size: 110.66316pt x 97.11256pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 162.
+(caption)                particular \caption on input line 160.
 See the caption package documentation for explanation.
 
 <Motor_kicking_2.PNG, id=153, 609.77812pt x 370.38374pt>
 File: Motor_kicking_2.PNG Graphic file (type png)
 <use Motor_kicking_2.PNG>
-Package pdftex.def Info: Motor_kicking_2.PNG  used on input line 166.
+Package pdftex.def Info: Motor_kicking_2.PNG  used on input line 164.
 (pdftex.def)             Requested size: 152.44415pt x 92.5957pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 167.
+(caption)                particular \caption on input line 165.
 See the caption package documentation for explanation.
 
 <Motor_kicking_3.PNG, id=154, 657.2053pt x 351.56343pt>
 File: Motor_kicking_3.PNG Graphic file (type png)
 <use Motor_kicking_3.PNG>
-Package pdftex.def Info: Motor_kicking_3.PNG  used on input line 171.
+Package pdftex.def Info: Motor_kicking_3.PNG  used on input line 169.
 (pdftex.def)             Requested size: 164.30092pt x 87.89064pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 172.
+(caption)                particular \caption on input line 170.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (2.11856pt too wide) in paragraph at lines 171--172
+Overfull \hbox (2.11856pt too wide) in paragraph at lines 169--170
 [][] 
  []
 
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 159--178
+Overfull \hbox (15.0pt too wide) in paragraph at lines 157--176
 [][] 
  []
 
